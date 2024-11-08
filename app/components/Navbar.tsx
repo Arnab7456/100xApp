@@ -2,7 +2,6 @@
 
 
 import Link from 'next/link';
-
 import ThemeToggler from './ThemeToggler';
 
 const Navbar = () => {
@@ -33,12 +32,15 @@ const Navbar = () => {
           </button>
           <div className="hidden items-center gap-2 md:flex">
             <button className="inline-flex items-center justify-center h-10 px-4 py-2 rounded-md bg-primary text-primary-foreground hover:bg-primary/90">
-              Login
+            <Link rel="noopener noreferrer" href={"/dashboard"}>
+             Login
+            </Link>
+            
             </button>
             <button className="inline-flex items-center justify-center h-10 px-4 py-2 rounded-md bg-gradient-to-b from-blue-400 to-blue-700 text-white font-medium transition-all duration-300 hover:opacity-80">
-              <a target="_blank" rel="noopener noreferrer" href="https://harkirat.classx.co.in/new-courses">
+              <Link target="_blank" rel="noopener noreferrer" href="https://harkirat.classx.co.in/new-courses">
                 Join now
-              </a>
+              </Link>
             </button>
           </div>
         </div>

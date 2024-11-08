@@ -6,6 +6,7 @@ import Codingpage from '../codingpage'
 import {InfiniteMovingCards} from '../ui/infinite-moving-cards';
 // import MoveCard from '../MoveCard'
 import { motion } from "framer-motion"
+import Footer from '../Footer'
 
 const heroItems = [
   {
@@ -51,12 +52,13 @@ const MoveCard  = () =>{
 
 const LandingPage = () => {
   return (
-    <div className='min-h bg-background'>
+    <div className='bg-background'>
         <Navbar />
       <HeroSection />
  
       <MoveCard />
            <Codingpage />
+          <Footer />
 
       
     </div>

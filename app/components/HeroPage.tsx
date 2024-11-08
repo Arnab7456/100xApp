@@ -30,6 +30,7 @@ const HeroSection = () => {
         <div className="flex flex-col items-center pt-10">
           <div className="flex flex-col items-center">
             <div className="flex flex-col items-center">
+              
                 <AnimatedShinyTextDemo />
               <CoverDemo />
               <p className="md:w-4/6 w-full text-center my-3 dark:text-[#94A3B8] text-[#64748B] font-medium ">
