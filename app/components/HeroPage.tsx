@@ -39,24 +39,26 @@ const HeroSection = () => {
             </div>
             <div className="md:w-4/6 w-full flex md:flex-row flex-col  items-center justify-center my-4">
               <Link
-                href={'/jobs'}
+               href="https://job.vineet.tech/"
+               target='_blank'
                 aria-label="explore-jobs"
-                className="md:w-fit w-full rounded-lg py-2 px-3 bg-[#3259E8] text-sm text-[#FFFF] font-medium hover:bg-[#3e63e9] text-center"
+                className="md:w-fit w-full rounded-lg py-2 px-3 bg-[rgb(50,89,232)] text-sm text-[#FFFF] font-medium hover:bg-[#3e63e9] text-center"
               >
                 Explore Jobs
               </Link>
               <Link
-                href={'#testimonials'}
+                href = "https://harkirat.classx.co.in/"
+                target='_blank'
                 className="md:w-fit w-full rounded-lg py-2 px-3 border text-sm md:ml-3 md:my-0 my-3 bg-transparent dark:bg-slate-900 dark:text-[#94A3B8] text-[#64748B] font-medium   dark:hover:bg-slate-900 hover:bg-slate-100 text-center"
                 aria-label="view-testimonals"
               >
-                View Testimonials
+                Explore Courses
               </Link>
             </div>
           </div>
           <div className="flex flex-col items-center my-5">
             <p className="border border-[#4E7AFF] rounded-lg bg-opacity-10 py-1 px-3 text-[#4E7AFF] text-xs w-fit font-medium">
-              Trusted By Leading Companies
+            Our Students Placed at Leading Tech Companies
             </p>
             <div className="grid md:grid-cols-6 grid-cols-2 items-center gap-1 md:mt-0 mt-4 dark">
               {trustedCompanies.map((company, i) => (
